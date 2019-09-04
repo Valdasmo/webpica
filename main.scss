@@ -1,0 +1,33 @@
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.hero {
+    display: inline-block;
+    background-color: blue;
+    width: 100%;
+       
+    h1 {
+        display: inline-block;
+        background-color: red;
+        font-size: 50px;
+        text-align: center;
+        margin: 20px calc( (100% - 300px) / 2 );
+    };
+};
+.container {
+    display: inline-block;
+    background-color: yellow;
+    width: 100%;
+    .pica {
+        // display: inline-block;
+        // background-color: purple;
+        float: left;
+        width: 400px / 1200px * 100%;
+        text-align: center;
+
+    }
+}
