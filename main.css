@@ -8,27 +8,65 @@ body * {
 
 .hero {
   display: inline-block;
-  background-color: blue;
   width: 100%;
 }
 
 .hero h1 {
   display: inline-block;
-  background-color: red;
   font-size: 50px;
   text-align: center;
-  margin: 20px calc( (100% - 300px) / 2);
+  margin: 20px calc((100% - 186px) / 2);
 }
 
 .container {
   display: inline-block;
-  background-color: yellow;
   width: 100%;
 }
 
 .container .pica {
-  float: left;
-  width: 33.33333%;
+  display: inline-block;
+  width: 400px;
   text-align: center;
+}
+
+.container .pica h4 {
+  margin: 30px calc((100% - 275px) / 2) 10px;
+}
+
+.container .pica p {
+  max-width: 300px;
+  float: left;
+  margin: 20px calc((100% - 300px) / 2);
+}
+
+.container .pica button {
+  display: inline-block;
+  background-color: rgba(76, 175, 79, 0.767);
+  border-radius: 7px;
+  border: none;
+  color: white;
+  padding: 7px 40px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.container .pica .krepselis {
+  display: inline-block;
+}
+
+.container .pica .krepselis button {
+  margin-top: 3px;
+  padding: 7px 97px;
+  background-color: rgba(76, 175, 79, 0.767);
+}
+
+.container .pica button:hover {
+  background-color: green;
+}
+
+.container .pica button:focus {
+  background-color: green;
+  outline: none;
 }
 /*# sourceMappingURL=main.css.map */

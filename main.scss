@@ -1,33 +1,66 @@
 body * {
-    margin: 0;
-    padding: 0;
-    vertical-align: top;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
 }
 
 .hero {
-    display: inline-block;
-    background-color: blue;
-    width: 100%;
-       
-    h1 {
-        display: inline-block;
-        background-color: red;
-        font-size: 50px;
-        text-align: center;
-        margin: 20px calc( (100% - 300px) / 2 );
-    };
-};
-.container {
-    display: inline-block;
-    background-color: yellow;
-    width: 100%;
-    .pica {
-        // display: inline-block;
-        // background-color: purple;
-        float: left;
-        width: 400px / 1200px * 100%;
-        text-align: center;
+  display: inline-block;
+  width: 100%;
 
+  h1 {
+    display: inline-block;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px calc((100% - 186px) / 2);
+  }
+}
+.container {
+  display: inline-block;
+  width: 100%;
+  .pica {
+    display: inline-block;
+    // float: left;
+    width: 400px;
+    text-align: center;
+    h4 {
+      margin: 30px calc((100% - 275px) / 2) 10px;
     }
+
+    p {
+      max-width: 300px;
+      float: left;
+      margin: 20px calc((100% - 300px) / 2);
+      // margin-left: 30px;
+    }
+    button {
+      display: inline-block;
+      background-color: rgba(76, 175, 79, 0.767);
+      border-radius: 7px;
+      border: none;
+      color: white;
+      padding: 7px 40px;
+      text-align: center;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .krepselis {
+      display: inline-block;
+
+      button {
+        margin-top: 3px;
+        padding: 7px 97px;
+        background-color: rgba(76, 175, 79, 0.767);
+      }
+    }
+
+    button:hover {
+      background-color: green;
+    }
+    button:focus {
+      background-color: green;
+      outline: none;
+    }
+  }
 }
