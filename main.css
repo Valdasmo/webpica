@@ -6,16 +6,32 @@ body * {
           box-sizing: border-box;
 }
 
-.hero {
+header {
   display: inline-block;
   width: 100%;
 }
 
-.hero h1 {
+header .logo {
   display: inline-block;
+  text-decoration: none;
   font-size: 50px;
-  text-align: center;
-  margin: 20px calc((100% - 186px) / 2);
+  color: black;
+  margin-left: 40px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+header nav {
+  float: right;
+  margin: 25px;
+}
+
+header nav a {
+  float: left;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .container {
